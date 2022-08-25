@@ -35,9 +35,9 @@
         </div>
     </div>
     <div class="buttons">
-        <button onclick="play()" class="playButton" id="playbtn">Play</button>
-        <button onclick="stop()" class="stopButton" id="stopbtn">Stop</button>
-        <button onclick="reset()" class="resetButton" id="resetbtn">Reset</button>
+        <button onclick="play()" class="button" id="playbtn">Play</button>
+        <button onclick="stop()" class="button" id="stopbtn">Stop</button>
+        <!-- <button onclick="reset()" class="button" id="resetbtn">Reset</button> -->
     </div>
     <script src="app.js" charset="utf-8"></script>
     <div id="tempo">
@@ -49,7 +49,7 @@
     <div id="crossfadeform">
         <p>Crossfade (set both between 1-1000)</p>
         <label for="crossfade speed">Attack/Release:</label>
-        <input type="text" id="cfspeed" value="100"><br><br>
+        <input type="text" id="cfspeed" value="400"><br><br>
         <p></p>
         <label for="crossfade on/off">Hold: </label>
         <input type="text" id="cfhold" value="500"><br><br>
@@ -62,7 +62,7 @@
     <div id="bgcolorform">
         <p></p>
         <label for="bgcolor">Background: </label>
-        <input type="text" id="bgcolor" value="#222"><br><br>
+        <input type="text" id="bgcolor" value="#444"><br><br>
         <input type="submit" value="Set" onclick="bgcolor()">
         <p>---------------------------------------------------------</p>
         <p> write: red, green, blue, pink, white...</p>

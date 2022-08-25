@@ -24,7 +24,7 @@ body {
 }
 
 .grid_base {
-    background: #000;
+    background: #222;
 }
 
 .grid_base > img, .grid_glow > img {
@@ -44,26 +44,18 @@ body {
 .buttons {
     position: absolute;
     top: 300px;
+    left: 10px;
 }
 
-#bgcolorform {
-    position: absolute;
-    top: 390px;
-    left: 815px;
-    border: 1px solid gray;
-}
-
-#crossfadeform {
-    position: absolute;
-    top: 390px;
-    left: 370px;
-    border: 1px solid gray;
-}
-
-#tempo {
-    position: absolute;
-    top: 390px;
-    border: 1px solid gray;
+.button {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    margin-right: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
 }
 
 #canvas{
@@ -74,4 +66,25 @@ body {
     top: 830px;
     left: 10px;
     display: none;
+}
+
+#tempo {
+    position: absolute;
+    top: 380px;
+    border: 1px solid gray;
+    left: 10px;
+}
+
+#crossfadeform {
+    position: absolute;
+    top: 380px;
+    left: 278px;
+    border: 1px solid gray;
+}
+
+#bgcolorform {
+    position: absolute;
+    top: 380px;
+    left: 625px;
+    border: 1px solid gray;
 }
