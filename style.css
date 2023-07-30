@@ -4,7 +4,7 @@
 }
 
 body {
-    background: #111;
+    background: rgb(7, 12, 37);
     color: #fff;
     font-family: 'Roboto', sans-serif;
 }
@@ -56,6 +56,7 @@ body {
     border: none;
     cursor: pointer;
     width: 100px;
+    border-radius: 10px;
 }
 
 #canvas{
@@ -73,6 +74,8 @@ body {
     top: 380px;
     border: 1px solid gray;
     left: 10px;
+    border-radius: 10px;
+    padding: 1rem;
 }
 
 #crossfadeform {
@@ -80,6 +83,8 @@ body {
     top: 380px;
     left: 278px;
     border: 1px solid gray;
+    border-radius: 10px;
+    padding: 1rem;
 }
 
 #bgcolorform {
@@ -87,4 +92,6 @@ body {
     top: 380px;
     left: 625px;
     border: 1px solid gray;
+    border-radius: 10px;
+    padding: 1rem;
 }
