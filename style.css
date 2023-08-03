@@ -9,6 +9,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
 .grid_base, .grid_glow {
     display: grid;
     width: 1040px;
